@@ -8,6 +8,6 @@ Repository thuc hanh rieng cho mon MNM, minh hoa 3 pipeline:
 
 Source Node.js nho su dung Express; khoa phien ban dependency bang `package-lock.json`.
 
-Luu y bao mat: action ngoai duoc pin bang commit SHA; GITHUB_TOKEN cap quyen rieng tung job. Grype duoc cau hinh `fail-build: false` chi cho muc dich thu thap bao cao (khong co nghia la ung dung an toan). Repo duoc tao private; SLSA generator su dung `private-repository: true` va cho phep dang tai metadata provenance len transparency log cong khai cua Sigstore.
+Luu y bao mat: cac action thong thuong duoc pin bang commit SHA. Rieng SLSA reusable workflow phai dung tag v2.1.0 vi generator tu choi ref SHA (yeu cau refs/tags/vX.Y.Z). GITHUB_TOKEN cap quyen rieng tung job. Grype duoc cau hinh `fail-build: false` chi cho muc dich thu thap bao cao (khong co nghia la ung dung an toan). Repo duoc tao private; SLSA generator su dung `private-repository: true` va cho phep dang tai metadata provenance len transparency log cong khai cua Sigstore.
 
 Khong de khoa rieng, PAT hoac secret trong code.
