@@ -1,0 +1,14 @@
+{
+  "name": "mnm-slsa-sbom-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo software supply chain security: SPDX, CycloneDX, Grype, Cosign, SLSA provenance",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
